@@ -21,7 +21,7 @@ enum NetworkError : Error
 
 class NetworkService : NetworkServiceProtocol
 {
-    private let baseURL = "https://rss.applemarketingtools.com/api/v2/us/music/most-played/50/"
+    private let baseURL = "https://rss.applemarketingtools.com/api/v2/us/"
     
     func get<T:Decodable>(from endpoints : String, completion: @escaping (T?, NetworkError?)->Void)
     {
