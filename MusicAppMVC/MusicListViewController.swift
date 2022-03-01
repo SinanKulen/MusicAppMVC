@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MusicListViewController: UIViewController {
 
+    @IBOutlet var musicListView: MusicListView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
