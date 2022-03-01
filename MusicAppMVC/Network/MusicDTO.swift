@@ -20,7 +20,12 @@ struct Feed: Codable {
     let copyright, country: String
     let icon: String
     let updated: String
-    let results: [Music]
+    let musics: [Music]
+    
+    enum CodingKeys: String, CodingKey {
+        case title, id , author, copyright, country, icon, updated
+        case musics = "results"
+    }
 }
 
 // MARK: - Author
