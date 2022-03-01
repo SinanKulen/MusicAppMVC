@@ -13,6 +13,9 @@
 		1B65A18327CE430E00C121AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B65A18127CE430E00C121AF /* Main.storyboard */; };
 		1B65A18527CE431000C121AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B65A18427CE431000C121AF /* Assets.xcassets */; };
 		1B65A18827CE431000C121AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B65A18627CE431000C121AF /* LaunchScreen.storyboard */; };
+		1B65A19027CE433600C121AF /* MusicDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B65A18F27CE433600C121AF /* MusicDTO.swift */; };
+		1B65A19227CE454D00C121AF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B65A19127CE454D00C121AF /* NetworkService.swift */; };
+		1B65A19427CE4B8400C121AF /* ClientNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B65A19327CE4B8400C121AF /* ClientNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1B65A18427CE431000C121AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B65A18727CE431000C121AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B65A18927CE431000C121AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B65A18F27CE433600C121AF /* MusicDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDTO.swift; sourceTree = "<group>"; };
+		1B65A19127CE454D00C121AF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1B65A19327CE4B8400C121AF /* ClientNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				1B65A17B27CE430E00C121AF /* AppDelegate.swift */,
 				1B65A17D27CE430E00C121AF /* SceneDelegate.swift */,
 				1B65A17F27CE430E00C121AF /* ViewController.swift */,
+				1B65A18F27CE433600C121AF /* MusicDTO.swift */,
+				1B65A19127CE454D00C121AF /* NetworkService.swift */,
+				1B65A19327CE4B8400C121AF /* ClientNetworkService.swift */,
 				1B65A18127CE430E00C121AF /* Main.storyboard */,
 				1B65A18427CE431000C121AF /* Assets.xcassets */,
 				1B65A18627CE431000C121AF /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B65A19227CE454D00C121AF /* NetworkService.swift in Sources */,
+				1B65A19427CE4B8400C121AF /* ClientNetworkService.swift in Sources */,
 				1B65A18027CE430E00C121AF /* ViewController.swift in Sources */,
+				1B65A19027CE433600C121AF /* MusicDTO.swift in Sources */,
 				1B65A17C27CE430E00C121AF /* AppDelegate.swift in Sources */,
 				1B65A17E27CE430E00C121AF /* SceneDelegate.swift in Sources */,
 			);
